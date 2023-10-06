@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  php:
+    build:
+      context: ./server
+    ports:
+    - "8080:80"
+  react:
+    build:
+      context: ./todo-app
+    ports:
+    - "80:3000"

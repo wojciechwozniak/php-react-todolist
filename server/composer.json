@@ -1,0 +1,17 @@
+{
+    "name": "wojtek/server",
+    "autoload": {
+        "psr-4": {
+            "Wojtek\\Server\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wojciech Woźniak",
+            "email": "wojciech.wozniak@op.pl"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.3"
+    }
+}
